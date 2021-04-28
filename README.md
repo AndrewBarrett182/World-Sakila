@@ -254,3 +254,13 @@
    Output:
    
    ![image](https://user-images.githubusercontent.com/82821693/116415002-e9d6d800-a830-11eb-8694-460e39703770.png)
+
+6. Find every R-rated movie.
+
+   Input:
+   
+   SELECT title FROM film WHERE rating = 'R';
+   
+   Output:
+   
+   ![image](https://user-images.githubusercontent.com/82821693/116415240-24407500-a831-11eb-8f6c-6b6e4c4141c3.png)
