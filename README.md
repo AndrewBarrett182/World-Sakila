@@ -364,3 +364,13 @@
     Output:
     
     ![image](https://user-images.githubusercontent.com/82821693/116431757-f878bb80-a83f-11eb-8775-25aed5d9697d.png)
+
+17. List all movies featuring a robot.
+
+    Input:
+    
+    SELECT title FROM film WHERE description LIKE '%robot%';
+    
+    Output:
+    
+    ![image](https://user-images.githubusercontent.com/82821693/116433125-1d216300-a841-11eb-91cc-75520b8eca9c.png)
