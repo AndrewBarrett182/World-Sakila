@@ -596,3 +596,13 @@
       | Chewa                     |
       | Lozi                      |
       | Nsenga                    |
+
+15. List the names and GNP of the world's top 10 richest countries.
+
+    Input:
+    
+    SELECT Name, GNP FROM country ORDER BY GNP DESC LIMIT 10;
+    
+    Output:
+    
+    ![image](https://user-images.githubusercontent.com/82821693/116398337-9445ff80-a81f-11eb-8663-6a9575f76e0d.png)
