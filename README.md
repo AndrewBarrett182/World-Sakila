@@ -214,3 +214,13 @@
    Output:
    
    ![image](https://user-images.githubusercontent.com/82821693/116413555-a92a8f00-a82f-11eb-8adb-f3067e63199b.png)
+
+2. Find the surname of the actor with the forename 'John'.
+
+   Input:
+   
+   SELECT last_name FROM actor WHERE first_name = 'John';
+   
+   Output:
+   
+   ![image](https://user-images.githubusercontent.com/82821693/116414022-08889f00-a830-11eb-8d78-07585da0fe75.png)
