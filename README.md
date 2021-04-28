@@ -626,3 +626,14 @@
     Output:
     
     ![image](https://user-images.githubusercontent.com/82821693/116399892-5053fa00-a821-11eb-95b8-032655b79969.png)
+    
+18. Which country has the worst life expectancy? Discard zero or null values.
+
+    Input:
+    
+    SELECT Name FROM country WHERE LifeExpectancy IS NOT NULL AND LifeExpectancy > 0 ORDER BY LifeExpectancy ASC LIMIT 1;
+    
+    Output:
+    
+    ![image](https://user-images.githubusercontent.com/82821693/116400157-a163ee00-a821-11eb-8ece-b412b7ad9b82.png)
+
