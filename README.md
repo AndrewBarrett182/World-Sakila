@@ -314,3 +314,13 @@
     Output:
     
     ![image](https://user-images.githubusercontent.com/82821693/116424141-2c9cae00-a839-11eb-8e12-a5150a75cbdc.png)
+
+12. Using HAVING, list the last names that appear more than once, from highest to lowest frequency.
+
+    Input:
+    
+    SELECT last_name, COUNT(last_name) FROM actor GROUP BY last_name HAVING COUNT(last_name) > 1 ORDER BY COUNT(last_name) DESC;
+    
+    Output:
+    
+    ![image](https://user-images.githubusercontent.com/82821693/116424528-7f766580-a839-11eb-9e90-ff21528c9184.png)
