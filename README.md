@@ -80,3 +80,14 @@
    Output:
    
    ![image](https://user-images.githubusercontent.com/82821693/116394744-36afb400-a81b-11eb-904b-df246258cb70.png)
+   
+9. Using aggregate functions, return the number of countries the database contains.
+
+   Input:
+   
+   SELECT DISTINCT COUNT(Name) FROM country;
+   
+   Output:
+   
+   ![image](https://user-images.githubusercontent.com/82821693/116395185-b5a4ec80-a81b-11eb-8c16-f43a90d8b800.png)
+
