@@ -354,3 +354,13 @@
     Output:
     
     ![image](https://user-images.githubusercontent.com/82821693/116430643-f06c4c00-a83e-11eb-9cc9-992db922b6dd.png)
+
+16. List the average runtime for every film category.
+
+    Input:
+    
+    SELECT category, AVG(length) FROM film_list GROUP BY category;
+    
+    Output:
+    
+    ![image](https://user-images.githubusercontent.com/82821693/116431757-f878bb80-a83f-11eb-8775-25aed5d9697d.png)
