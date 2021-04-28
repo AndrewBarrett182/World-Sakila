@@ -294,3 +294,13 @@
    Output:
    
    ![image](https://user-images.githubusercontent.com/82821693/116419133-aa11ef80-a834-11eb-90c0-8a0dd4cf412d.png)
+
+10. Find all movies that have deleted scenes.
+
+    Input:
+    
+    SELECT title FROM film WHERE special_features LIKE '%Deleted Scenes%';
+    
+    Output:
+    
+    ![image](https://user-images.githubusercontent.com/82821693/116422603-d2e7b400-a837-11eb-9b38-8827d6e63c0e.png)
