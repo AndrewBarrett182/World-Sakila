@@ -100,3 +100,13 @@
     Output:
    
     ![image](https://user-images.githubusercontent.com/82821693/116395489-192f1a00-a81c-11eb-880c-4cb815e7566a.png)
+    
+11. List the five largest cities by population in Japan.
+
+    Input:
+    
+    SELECT Name FROM city WHERE CountryCode = 'JPN' ORDER BY Population DESC LIMIT 5;
+
+    Output:
+    
+    ![image](https://user-images.githubusercontent.com/82821693/116395971-affbd680-a81c-11eb-841b-569df4fcedaf.png)
