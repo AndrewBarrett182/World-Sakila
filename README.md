@@ -110,3 +110,14 @@
     Output:
     
     ![image](https://user-images.githubusercontent.com/82821693/116395971-affbd680-a81c-11eb-841b-569df4fcedaf.png)
+    
+12. List the names and country codes of every country with Elizabeth II as its Head of State. You will need to fix the mistake first!
+
+    Input:
+    
+    SELECT Name, Code FROM country WHERE HeadOfState = 'Elisabeth II';
+    
+    Output:
+    
+    ![image](https://user-images.githubusercontent.com/82821693/116396522-69f34280-a81d-11eb-8a97-989e8d5907be.png)
+
