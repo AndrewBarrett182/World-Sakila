@@ -264,3 +264,13 @@
    Output:
    
    ![image](https://user-images.githubusercontent.com/82821693/116415240-24407500-a831-11eb-8f6c-6b6e4c4141c3.png)
+
+7. Find every non-R-rated movie.
+
+   Input:
+   
+   SELECT title FROM film WHERE rating != 'R';
+   
+   Output:
+   
+   ![image](https://user-images.githubusercontent.com/82821693/116415566-7386a580-a831-11eb-9a7f-05a4380e25c3.png)
