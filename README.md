@@ -324,3 +324,13 @@
     Output:
     
     ![image](https://user-images.githubusercontent.com/82821693/116424528-7f766580-a839-11eb-9e90-ff21528c9184.png)
+
+13. Which actor has appeared in the most films?
+
+    Input:
+    
+    SELECT actor.first_name, actor.last_name, COUNT(film_actor.actor_id) FROM actor JOIN film_actor ON actor.actor_id = film_actor.actor_id GROUP BY film_actor.actor_id ORDER BY COUNT(film_actor.actor_id) DESC LIMIT 1;
+    
+    Output:
+    
+    ![image](https://user-images.githubusercontent.com/82821693/116427318-d5e4a380-a83b-11eb-910c-0d5007195ed7.png)
