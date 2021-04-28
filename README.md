@@ -121,3 +121,13 @@
     
     ![image](https://user-images.githubusercontent.com/82821693/116396522-69f34280-a81d-11eb-8a97-989e8d5907be.png)
 
+13. List the top ten countries with the smallest population-to-area ratio. Discard any countries with a ratio of 0.
+
+    Input:
+    
+    SELECT Name, Population / SurfaceArea AS 'Population to Area Ratio' FROM country WHERE (Population / SurfaceArea) > 0 ORDER BY (Population / SurfaceArea) ASC LIMIT 10;
+    
+    Output:
+    
+    ![image](https://user-images.githubusercontent.com/82821693/116397568-a5424100-a81e-11eb-974f-3bb56a722e04.png)
+
