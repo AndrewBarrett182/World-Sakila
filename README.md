@@ -60,4 +60,13 @@
    Output:
    
    ![image](https://user-images.githubusercontent.com/82821693/116392774-c2741100-a818-11eb-8e22-194e4099b4b5.png)
+   
+7. Using COUNT and JOIN ... ON, get the number of cities in China.
 
+   Input:
+   
+   SELECT COUNT(city.Name) FROM city JOIN country ON country.Code = city.CountryCode WHERE country.Name = 'China';
+   
+   Output:
+   
+   ![image](https://user-images.githubusercontent.com/82821693/116394361-bbe69900-a81a-11eb-99dd-4f9d32d6fbd2.png)
