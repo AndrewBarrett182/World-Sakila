@@ -616,3 +616,13 @@
     Output:
     
     ![image](https://user-images.githubusercontent.com/82821693/116399226-978dbb00-a820-11eb-8a24-2718b34dfb27.png)
+
+17. List every country where over 50% of its population can speak German.
+
+    Input:
+    
+    SELECT country.Name FROM country JOIN countrylanguage ON country.Code = countrylanguage.CountryCode WHERE countrylanguage.Percentage > 50 AND countrylanguage.Language = 'German';
+    
+    Output:
+    
+    ![image](https://user-images.githubusercontent.com/82821693/116399892-5053fa00-a821-11eb-95b8-032655b79969.png)
