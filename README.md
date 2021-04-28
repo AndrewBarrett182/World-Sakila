@@ -646,3 +646,13 @@
     Output:
     
     ![image](https://user-images.githubusercontent.com/82821693/116412455-9ebbc580-a82e-11eb-8c11-3bda330799c6.png)
+
+20. How many countries have gained independence since records began?
+
+    Input:
+    
+    SELECT COUNT(IndepYear) FROM country WHERE IndepYear IS NOT NULL;
+    
+    Output:
+    
+    ![image](https://user-images.githubusercontent.com/82821693/116412902-0540e380-a82f-11eb-9d40-ae01b7d7457c.png)
