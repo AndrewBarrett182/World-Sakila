@@ -29,3 +29,19 @@
    Output:
    
    ![image](https://user-images.githubusercontent.com/82821693/116387389-ad947f00-a812-11eb-8af0-073922d84c44.png)
+
+4. Using JOIN ... ON, find the capital city of Spain.
+
+   Input:
+   
+   Output:
+
+5. Using JOIN ... ON, list all the languages spoken in the Southeast Asia region.
+
+   Input:
+
+   SELECT DISTINCT countrylanguage.Language FROM countrylanguage INNER JOIN country ON countrylanguage.CountryCode = country.Code WHERE country.Region = 'Southeast Asia';
+   
+   Output:
+   
+   ![image](https://user-images.githubusercontent.com/82821693/116390035-8e4b2100-a815-11eb-9ed3-6fc94a58a86d.png)
