@@ -55,4 +55,9 @@
 
    Input:
    
-   SELECT Name FROM city 
+   SELECT Name FROM city WHERE Name LIKE 'F%' LIMIT 25;
+   
+   Output:
+   
+   ![image](https://user-images.githubusercontent.com/82821693/116392774-c2741100-a818-11eb-8e22-194e4099b4b5.png)
+
