@@ -34,7 +34,7 @@
 
    Input:
    
-   SELECT city.Name FROM city INNER JOIN country ON city.ID = country.Capital WHERE country.Name = 'Spain';
+   SELECT city.Name FROM city JOIN country ON city.ID = country.Capital WHERE country.Name = 'Spain';
    
    Output:
    
@@ -45,7 +45,7 @@
 
    Input:
 
-   SELECT DISTINCT countrylanguage.Language FROM countrylanguage INNER JOIN country ON countrylanguage.CountryCode = country.Code WHERE country.Region = 'Southeast Asia';
+   SELECT DISTINCT countrylanguage.Language FROM countrylanguage JOIN country ON countrylanguage.CountryCode = country.Code WHERE country.Region = 'Southeast Asia';
    
    Output:
    
