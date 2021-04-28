@@ -334,3 +334,13 @@
     Output:
     
     ![image](https://user-images.githubusercontent.com/82821693/116427318-d5e4a380-a83b-11eb-910c-0d5007195ed7.png)
+
+14. When is 'Academy Dinosaur' due?
+
+    Input:
+    
+    SELECT release_year FROM film WHERE title = 'Academy Dinosaur';
+    
+    Output:
+    
+    ![image](https://user-images.githubusercontent.com/82821693/116430380-b1d69180-a83e-11eb-8231-25bb46405460.png)
