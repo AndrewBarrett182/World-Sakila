@@ -285,4 +285,12 @@
    
    ![image](https://user-images.githubusercontent.com/82821693/116415860-b9dc0480-a831-11eb-8623-a85f5f54fc2e.png)
 
-9. 
+9. Find the movies with the longest runtime, without using LIMIT.
+
+   Input:
+   
+   SELECT title FROM film WHERE length = (SELECT MAX(length) FROM film);
+   
+   Output:
+   
+   ![image](https://user-images.githubusercontent.com/82821693/116419133-aa11ef80-a834-11eb-90c0-8a0dd4cf412d.png)
