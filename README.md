@@ -637,3 +637,12 @@
     
     ![image](https://user-images.githubusercontent.com/82821693/116400157-a163ee00-a821-11eb-8ece-b412b7ad9b82.png)
 
+19. List the top three most common government forms.
+
+    Input:
+    
+    SELECT DISTINCT GovernmentForm, COUNT(GovernmentForm) FROM country GROUP BY GovernmentForm ORDER BY COUNT(GovernmentForm) DESC LIMIT 3;
+    
+    Output:
+    
+    ![image](https://user-images.githubusercontent.com/82821693/116412455-9ebbc580-a82e-11eb-8c11-3bda330799c6.png)
