@@ -335,7 +335,7 @@
     
     ![image](https://user-images.githubusercontent.com/82821693/116427318-d5e4a380-a83b-11eb-910c-0d5007195ed7.png)
 
-14. When is 'Academy Dinosaur' due?
+14. When is 'Academy Dinosaur' due? (due to release)
 
     Input:
     
@@ -344,3 +344,13 @@
     Output:
     
     ![image](https://user-images.githubusercontent.com/82821693/116430380-b1d69180-a83e-11eb-8231-25bb46405460.png)
+
+15. What is the average runtime of all films?
+
+    Input:
+    
+    SELECT AVG(length) FROM film;
+    
+    Output:
+    
+    ![image](https://user-images.githubusercontent.com/82821693/116430643-f06c4c00-a83e-11eb-9cc9-992db922b6dd.png)
