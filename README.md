@@ -234,3 +234,23 @@
    Output:
    
    ![image](https://user-images.githubusercontent.com/82821693/116414277-3bcb2e00-a830-11eb-8443-c7e0dfa6c45f.png)
+
+4. Find all actors with ID numbers divisible by 10.
+
+   Input:
+   
+   SELECT first_name, last_name FROM actor WHERE actor_id % 10 = 0;
+   
+   Output:
+   
+   ![image](https://user-images.githubusercontent.com/82821693/116414790-b09e6800-a830-11eb-9c55-8530154316cf.png)
+
+5. What is the description of the movie with an ID of 100?
+
+   Input:
+   
+   SELECT description FROM film WHERE film_id = 100;
+   
+   Output:
+   
+   ![image](https://user-images.githubusercontent.com/82821693/116415002-e9d6d800-a830-11eb-8694-460e39703770.png)
