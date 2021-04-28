@@ -374,3 +374,13 @@
     Output:
     
     ![image](https://user-images.githubusercontent.com/82821693/116433125-1d216300-a841-11eb-91cc-75520b8eca9c.png)
+
+18. How many movies were released in 2010?
+
+    Input:
+    
+    SELECT COUNT(release_year) FROM film WHERE release_year = 2010;
+    
+    Output:
+    
+    ![image](https://user-images.githubusercontent.com/82821693/116433398-5d80e100-a841-11eb-9840-0e5dc6257acc.png)
