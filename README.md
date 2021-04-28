@@ -224,3 +224,13 @@
    Output:
    
    ![image](https://user-images.githubusercontent.com/82821693/116414022-08889f00-a830-11eb-8d78-07585da0fe75.png)
+
+3. Find all actors with surname 'Neeson'.
+
+   Input:
+   
+   SELECT first_name, last_name FROM actor WHERE last_name = 'Neeson';
+   
+   Output:
+   
+   ![image](https://user-images.githubusercontent.com/82821693/116414277-3bcb2e00-a830-11eb-8443-c7e0dfa6c45f.png)
