@@ -34,7 +34,12 @@
 
    Input:
    
+   SELECT city.Name FROM city INNER JOIN country ON city.ID = country.Capital WHERE country.Name = 'Spain';
+   
    Output:
+   
+   ![image](https://user-images.githubusercontent.com/82821693/116391864-973cf200-a817-11eb-9bab-a0d1fa9458c3.png)
+
 
 5. Using JOIN ... ON, list all the languages spoken in the Southeast Asia region.
 
@@ -45,3 +50,9 @@
    Output:
    
    ![image](https://user-images.githubusercontent.com/82821693/116390035-8e4b2100-a815-11eb-9ed3-6fc94a58a86d.png)
+   
+6. Using a single query, list 25 cities around the world that start with the letter F.
+
+   Input:
+   
+   SELECT Name FROM city 
