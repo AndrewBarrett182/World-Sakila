@@ -274,3 +274,15 @@
    Output:
    
    ![image](https://user-images.githubusercontent.com/82821693/116415566-7386a580-a831-11eb-9a7f-05a4380e25c3.png)
+
+8. Find the ten shortest movies.
+
+   Input:
+   
+   SELECT title FROM film ORDER BY length ASC LIMIT 10;
+   
+   Output:
+   
+   ![image](https://user-images.githubusercontent.com/82821693/116415860-b9dc0480-a831-11eb-8623-a85f5f54fc2e.png)
+
+9. 
