@@ -606,3 +606,13 @@
     Output:
     
     ![image](https://user-images.githubusercontent.com/82821693/116398337-9445ff80-a81f-11eb-8663-6a9575f76e0d.png)
+
+16. List the names of, and number of languages spoken by, the top ten most multilingual countries.
+
+    Input:
+    
+    SELECT country.Name, COUNT(countrylanguage.Language) FROM countrylanguage JOIN country ON countrylanguage.CountryCode = country.Code GROUP BY country.Name ORDER BY COUNT(countrylanguage.Language) DESC LIMIT 10;
+    
+    Output:
+    
+    ![image](https://user-images.githubusercontent.com/82821693/116399226-978dbb00-a820-11eb-8a24-2718b34dfb27.png)
