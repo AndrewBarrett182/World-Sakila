@@ -91,3 +91,12 @@
    
    ![image](https://user-images.githubusercontent.com/82821693/116395185-b5a4ec80-a81b-11eb-8c16-f43a90d8b800.png)
 
+10. What are the top ten largest countries by area?
+
+   Input:
+   
+   SELECT Name FROM country ORDER BY SurfaceArea DESC LIMIT 10;
+   
+   Output:
+   
+   ![image](https://user-images.githubusercontent.com/82821693/116395489-192f1a00-a81c-11eb-880c-4cb815e7566a.png)
